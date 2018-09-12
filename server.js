@@ -15,7 +15,7 @@ app.get('/', function(req, res){
     });
     var params = {
       OutputFormat: 'mp3',
-      Text: 'Hello World!',
+      Text: 'you have deployed the AWS quick start , a node js application which consoles the AWS polly service provisioned and exposed by the AWS service broker',
       VoiceId: 'Brian',
     };
     polly.synthesizeSpeech(params, function(err, data) {

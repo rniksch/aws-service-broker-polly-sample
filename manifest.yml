@@ -1,6 +1,6 @@
 ---
 applications:
-- name: cf-nodejs
+- name: pollysample
   memory: 512M
   instances: 1
   random-route: true
